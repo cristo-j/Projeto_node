@@ -5,14 +5,14 @@ const app = express();
 
 // TESTE DE ALETARÇÃO NO GITHUB
 
-
+console.log("autodestruição de guithub!!!!")
 
 app.use(express.json());
 // Rota de sucesso (200 OK)
 app.get('/sucesso', (req, res) => {
  res.status(200).json({
  status: "success",
- message: "Requisição processada com sucesso!"
+ message: "Requesito para da ceto!"
  });
 });
 // Rota de criação de recurso (201 Created)
