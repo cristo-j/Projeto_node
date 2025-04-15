@@ -1,6 +1,12 @@
 const express = require('express');
 const app = express();
 // Middleware para interpretar JSON
+
+
+// TESTE DE ALETARÇÃO NO GITHUB
+
+
+
 app.use(express.json());
 // Rota de sucesso (200 OK)
 app.get('/sucesso', (req, res) => {
