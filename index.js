@@ -12,7 +12,7 @@ app.use(express.json());
 app.get('/sucesso', (req, res) => {
  res.status(200).json({
  status: "success",
- message: "Requesito para da seto!"
+ message: "Requesito para da ceto!"
  });
 });
 // Rota de criação de recurso (201 Created)
