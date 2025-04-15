@@ -5,7 +5,7 @@ const app = express();
 
 // TESTE DE ALETARÇÃO NO GITHUB
 
-
+console.log("autodestruição de guithub!!!!")
 
 app.use(express.json());
 // Rota de sucesso (200 OK)
