@@ -1,18 +1,12 @@
 const express = require('express');
 const app = express();
 // Middleware para interpretar JSON
-
-
-// TESTE DE ALETARÇÃO NO GITHUB
-
-console.log("autodestruição de guithub!!!!")
-
 app.use(express.json());
 // Rota de sucesso (200 OK)
 app.get('/sucesso', (req, res) => {
  res.status(200).json({
  status: "success",
- message: "Requesito para da ceto!"
+ message: "Requisição processada com sucesso!"
  });
 });
 // Rota de criação de recurso (201 Created)
